@@ -130,7 +130,7 @@ export const Home = (): JSX.Element => {
   return (
     <div className="flex flex-col justify-between w-full min-h-[100vh] gap-8">
       <Header />
-      <div className=" w-full flex items-center flex-col gap-8 h-full">
+      <div className="px-2 md:px-0 w-full flex items-center flex-col gap-8 h-full">
         <img src="/logo-h.svg" alt="" />
         <h1 className=" text-center font-bold text-6xl max-w-[40rem]">Encontre <b className="bg-gradient-to-r from-[#e470b6] to-[#fd8e93] inline-block text-transparent bg-clip-text">doações</b> em <b className="bg-gradient-to-r from-[#e470b6] to-[#fd8e93] inline-block text-transparent bg-clip-text">segundos.</b></h1>
         <div className="w-full max-w-[40rem] flex gap-2 md:flex-row flex-col">
